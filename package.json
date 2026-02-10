@@ -1,15 +1,12 @@
 {
-  "name": "bookshop",
-  "version": "1.0.1",
-  "description": "",
+  "name": "expressbookreviews",
+  "version": "1.0.0",
+  "description": "Book Review Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",
     "express-session": "^1.17.3",
